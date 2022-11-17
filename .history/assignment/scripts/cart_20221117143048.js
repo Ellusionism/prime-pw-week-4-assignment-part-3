@@ -29,7 +29,7 @@ function addItem (item) {
 
 function removeItem (item) {
  console.log(`Removing ${item} from basket...`);
- if (basket.indexOf(item) > -1) {
+ if (basket.indexOf(item)>) {
   basket.splice(basket.indexOf(item));
   console.log(`Removed ${item}.`);
  } else {

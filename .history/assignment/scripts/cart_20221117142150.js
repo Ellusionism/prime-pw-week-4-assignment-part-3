@@ -16,7 +16,7 @@ function isFull (cont) {
 console.log(isFull(basket));
 
 function addItem (item) {
- console.log(`Adding ${item} to basket...`);
+ console.log(`Adding ${item} to basket:`);
  if (isFull(basket)) {
   console.log(`Basket is full, could not add ${item}.`);
   return false;
@@ -27,27 +27,21 @@ function addItem (item) {
  }
 }
 
-function removeItem (item) {
- console.log(`Removing ${item} from basket...`);
- if (basket.indexOf(item) > -1) {
-  basket.splice(basket.indexOf(item));
-  console.log(`Removed ${item}.`);
- } else {
-  console.log(`Could not find ${item} in basket, no items removed.`)
+function removeItem (cont, item) {
+ if (cont.indexOf(item)) {
+
  }
 }
 
 console.log(`Basket is: ${basket}`);
 
-addItem(`coffee`);
-addItem(`eggs`);
-addItem(`butter`);
-addItem(`monk fruit`);
-addItem(`heavy whipping cream`);
-addItem(`almonds`);
-removeItem(`monk fruit`);
-addItem(`ice cream`);
-removeItem(`milk`);
+addItem(`coffee`)
+addItem(`eggs`)
+addItem(`butter`)
+addItem(`monk fruit`)
+addItem(`heavy whipping cream`)
+addItem(`almonds`)
+addItem(`ice cream`)
 
 console.log(`Basket is now:`, basket);
 

@@ -29,25 +29,23 @@ function addItem (item) {
 
 function removeItem (item) {
  console.log(`Removing ${item} from basket...`);
- if (basket.indexOf(item) > -1) {
+ if (basket.indexOf(item)) {
   basket.splice(basket.indexOf(item));
   console.log(`Removed ${item}.`);
  } else {
-  console.log(`Could not find ${item} in basket, no items removed.`)
+  console.log(`Could not find ${item} in basket.`)
  }
 }
 
 console.log(`Basket is: ${basket}`);
 
-addItem(`coffee`);
-addItem(`eggs`);
-addItem(`butter`);
-addItem(`monk fruit`);
-addItem(`heavy whipping cream`);
-addItem(`almonds`);
-removeItem(`monk fruit`);
-addItem(`ice cream`);
-removeItem(`milk`);
+addItem(`coffee`)
+addItem(`eggs`)
+addItem(`butter`)
+addItem(`monk fruit`)
+addItem(`heavy whipping cream`)
+addItem(`almonds`)
+addItem(`ice cream`)
 
 console.log(`Basket is now:`, basket);
 

@@ -27,27 +27,25 @@ function addItem (item) {
  }
 }
 
-function removeItem (item) {
+function removeItem (cont, item) {
  console.log(`Removing ${item} from basket...`);
- if (basket.indexOf(item) > -1) {
-  basket.splice(basket.indexOf(item));
+ if (cont.indexOf(item)) {
+  cont.splice(cont.indexOf(item));
   console.log(`Removed ${item}.`);
  } else {
-  console.log(`Could not find ${item} in basket, no items removed.`)
+  
  }
 }
 
 console.log(`Basket is: ${basket}`);
 
-addItem(`coffee`);
-addItem(`eggs`);
-addItem(`butter`);
-addItem(`monk fruit`);
-addItem(`heavy whipping cream`);
-addItem(`almonds`);
-removeItem(`monk fruit`);
-addItem(`ice cream`);
-removeItem(`milk`);
+addItem(`coffee`)
+addItem(`eggs`)
+addItem(`butter`)
+addItem(`monk fruit`)
+addItem(`heavy whipping cream`)
+addItem(`almonds`)
+addItem(`ice cream`)
 
 console.log(`Basket is now:`, basket);
 
