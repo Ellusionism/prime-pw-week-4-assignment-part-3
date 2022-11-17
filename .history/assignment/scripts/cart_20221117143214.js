@@ -32,10 +32,9 @@ function removeItem (item) {
  if (basket.indexOf(item) > -1) {
   basket.splice(basket.indexOf(item));
   console.log(`Removed ${item}.`);
-  return item;
+  return item
  } else {
   console.log(`Could not find ${item} in basket, no items removed.`)
-  return null;
  }
 }
 

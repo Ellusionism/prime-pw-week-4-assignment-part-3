@@ -35,7 +35,7 @@ function removeItem (item) {
   return item;
  } else {
   console.log(`Could not find ${item} in basket, no items removed.`)
-  return null;
+  return nuy
  }
 }
 
