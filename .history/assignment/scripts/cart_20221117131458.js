@@ -5,7 +5,4 @@ let basket = [];
 
 function addItem (item) {
  basket.push(item);
- return true;
 }
-
-console.log(`Added coffee: `, addItem(`coffee`));

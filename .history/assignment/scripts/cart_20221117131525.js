@@ -8,4 +8,4 @@ function addItem (item) {
  return true;
 }
 
-console.log(`Added coffee: `, addItem(`coffee`));
+console.log(``
