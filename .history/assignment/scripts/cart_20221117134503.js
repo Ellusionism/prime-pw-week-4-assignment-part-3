@@ -31,4 +31,3 @@ function empty(cont) {
  return true;
 }
 
-console.log(`Emptied basket:`, empty(basket));

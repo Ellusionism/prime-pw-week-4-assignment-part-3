@@ -19,8 +19,8 @@ addItem(`eggs`)
 console.log(`Basket is now:`, basket);
 
 function listItems(cont) {
- for (let i = 0; i < cont.length; i++) {
-  console.log(`Item ${i + 1}:`, cont[i])
+ for (let i = 0; i < list.cont; i++) {
+  console.log(`Item ${i + 1}:`, list[i])
  }
 }
 
@@ -28,7 +28,4 @@ listItems(basket);
 
 function empty(cont) {
  cont.length = 0;
- return true;
 }
-
-console.log(`Emptied basket:`, empty(basket));

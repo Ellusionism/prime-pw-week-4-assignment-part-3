@@ -28,7 +28,4 @@ listItems(basket);
 
 function empty(cont) {
  cont.length = 0;
- return true;
 }
-
-console.log(`Emptied basket:`, empty(basket));
