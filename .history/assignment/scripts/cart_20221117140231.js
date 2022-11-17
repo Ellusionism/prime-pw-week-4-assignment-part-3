@@ -31,9 +31,9 @@ console.log(`Basket is: ${basket}`);
 addItem(`coffee`)
 addItem(`eggs`)
 addItem(`butter`)
-addItem(`monk fruit`)
+addItem(`eggs`)
 addItem(`heavy whipping cream`)
-addItem(`almonds`)
+addItem(`monk fruit`)
 addItem(`ice cream`)
 
 console.log(`Basket is now:`, basket);

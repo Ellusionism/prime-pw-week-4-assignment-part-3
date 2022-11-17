@@ -52,3 +52,5 @@ function empty(cont) {
 }
 
 console.log(`Emptied basket:`, empty(basket));
+
+listItems(basket)

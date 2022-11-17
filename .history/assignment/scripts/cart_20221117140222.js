@@ -29,11 +29,11 @@ function addItem (item) {
 console.log(`Basket is: ${basket}`);
 
 addItem(`coffee`)
-addItem(`eggs`)
-addItem(`butter`)
-addItem(`monk fruit`)
-addItem(`heavy whipping cream`)
 addItem(`almonds`)
+addItem(`butter`)
+addItem(`eggs`)
+addItem(`heavy whipping cream`)
+addItem(`monk fruit`)
 addItem(`ice cream`)
 
 console.log(`Basket is now:`, basket);

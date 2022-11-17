@@ -20,21 +20,20 @@ function addItem (item) {
  if (isFull(basket)) {
   console.log(`Basket is full, could not add ${item}.`);
  } else {
-  basket.push(item);
-  console.log(`Added ${item}.`);
-  return true;
+ basket.push(item);
+ console.log(`Added ${item}.`);
+ return true;
  }
 }
 
 console.log(`Basket is: ${basket}`);
 
 addItem(`coffee`)
-addItem(`eggs`)
-addItem(`butter`)
-addItem(`monk fruit`)
-addItem(`heavy whipping cream`)
 addItem(`almonds`)
-addItem(`ice cream`)
+addItem(`butter`)
+addItem(`eggs`)
+addItem(`heavy whipping cream`)
+addItem(`eggs`)
 
 console.log(`Basket is now:`, basket);
 

@@ -41,6 +41,7 @@ console.log(`Basket is now:`, basket);
 function listItems(cont) {
  for (let i = 0; i < cont.length; i++) {
   console.log(`Item ${i + 1}:`, cont[i])
+  return true
  }
 }
 
@@ -52,3 +53,5 @@ function empty(cont) {
 }
 
 console.log(`Emptied basket:`, empty(basket));
+
+console.log(`Basket is now: `)

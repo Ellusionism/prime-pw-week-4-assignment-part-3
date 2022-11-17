@@ -33,7 +33,7 @@ addItem(`eggs`)
 addItem(`butter`)
 addItem(`monk fruit`)
 addItem(`heavy whipping cream`)
-addItem(`almonds`)
+addItem(`monk fruit`)
 addItem(`ice cream`)
 
 console.log(`Basket is now:`, basket);
