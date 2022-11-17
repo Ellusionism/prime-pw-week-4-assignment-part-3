@@ -15,7 +15,6 @@ addItem(`coffee`)
 addItem(`almonds`)
 addItem(`butter`)
 addItem(`eggs`)
-
 console.log(`Basket is now:`, basket);
 
 function listItems(cont) {

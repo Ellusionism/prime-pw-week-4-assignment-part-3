@@ -10,12 +10,10 @@ function addItem (item) {
 }
 
 console.log(`Basket is: ${basket}`);
-
 addItem(`coffee`)
-addItem(`almonds`)
+console.log(`Added almonds: `, addItem(`almonds`)
 addItem(`butter`)
 addItem(`eggs`)
-
 console.log(`Basket is now:`, basket);
 
 function listItems(cont) {
